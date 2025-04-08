@@ -72,3 +72,9 @@
 `SELECT AVG(precio_articulo) AS Precio_Promedio_Fab02 FROM Articulo WHERE id_fabricante = 'fab02';`
 
 ![consulta 9](img/precio_promedio_fab2.png "consulta 9")
+
+10. Obtener el número de artículos cuyo precio sea mayor o igual a $50000.
+
+`SELECT COUNT(*) AS Cantidad_Articulos FROM Articulo WHERE precio_articulo >= 50000;`
+
+![consulta 10](img/cantidad_articulo_1.png "consulta 10")
