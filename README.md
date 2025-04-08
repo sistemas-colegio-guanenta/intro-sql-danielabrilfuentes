@@ -78,3 +78,9 @@
 `SELECT COUNT(*) AS Cantidad_Articulos FROM Articulo WHERE precio_articulo >= 50000;`
 
 ![consulta 10](img/cantidad_articulo_1.png "consulta 10")
+
+11. Obtener el nombre y el precio de los artículos cuyo precio sea igual o mayor a $50000 y ordenarlos descendentemente por precio, y luego ascendentemente por nombre
+
+`SELECT nombre_articulo AS Articulo, precio_articulo AS Precio FROM Articulo WHERE precio_articulo >= 50000 ORDER BY precio_articulo DESC, nombre_articulo ASC;`
+
+![consulta 11](img/articulo_precio_1.png "consulta 11")
