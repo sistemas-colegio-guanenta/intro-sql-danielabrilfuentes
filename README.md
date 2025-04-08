@@ -90,3 +90,9 @@
 `SELECT * FROM Articulo JOIN Fabricante ON Articulo.id_fabricante = Fabricante.id_fabricante;`
 
 ![consulta 12](img/consulta_12.png "consulta 12")
+
+13. Obtener un listado de artículos, incluyendo el nombre del artículo, su precio y el nombre de su fabricante.
+
+`SELECT Articulo.nombre_articulo AS Articulo, Articulo.precio_articulo AS Precio, Fabricante.nombre_fabricante AS Fabricante FROM Articulo JOIN Fabricante ON Articulo.id_fabricante = Fabricante.id_fabricante;`
+
+![consulta 13](img/consulta_13.png "consulta 13")
